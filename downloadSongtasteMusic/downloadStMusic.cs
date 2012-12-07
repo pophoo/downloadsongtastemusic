@@ -429,7 +429,8 @@ namespace downloadSongtasteMusic
             //headerDict.Add("Referer", "http://songtaste.com/music/");
             headerDict.Add("Referer", "http://songtaste.com/");
 
-            const int maxMusicFileLen = 100 * 1024 * 1024; // 100M
+            //const int maxMusicFileLen = 100 * 1024 * 1024; // 100M
+            const int maxMusicFileLen = 300 * 1024 * 1024; // 300M
             Byte[] binDataBuf = new Byte[maxMusicFileLen];
             
             int respDataLen = crl.getUrlRespStreamBytes(ref binDataBuf, musicRealAddr, headerDict, null, 0);

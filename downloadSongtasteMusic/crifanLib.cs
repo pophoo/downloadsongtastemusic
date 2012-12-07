@@ -59,8 +59,8 @@ public class crifanLib
 
     CookieCollection curCookies = null;
 
-    private int totalLength = 0;
-    private int currentLength = 0;
+    private long totalLength = 0;
+    private long currentLength = 0;
 
     public crifanLib()
     {
@@ -1252,10 +1252,12 @@ public class crifanLib
         int curPercent = 0;
         if ((currentLength > 0) && (totalLength > 0))
         {
-            curPercent = (currentLength * 100) / totalLength;
+            //NOTE: here currentLength * 100 maybe exceed 2^31=2147483648, so here must use long, can NOT use int
+            //otherwise it will becomd nagative value
+            curPercent = (int)((currentLength * 100) / totalLength);
         }
-        
-        return curPercent;
+                
+        return (int)curPercent;
     }
 
     public int getUrlRespStreamBytes(ref Byte[] respBytesBuf,
@@ -1265,14 +1267,14 @@ public class crifanLib
                                     int timeout)
     {
         int curReadoutLen;
-        int curBufPos = 0;
         int realReadoutLen = 0;
+        int curBufPos = 0;
 
         try
         {
             //HttpWebResponse resp = getUrlResponse(url, headerDict, postDict, timeout);
             HttpWebResponse resp = getUrlResponse(url, headerDict, postDict);
-            int expectReadoutLen = (int)resp.ContentLength;
+            long expectReadoutLen = resp.ContentLength;
 
             totalLength = expectReadoutLen;
             currentLength = 0;
@@ -1288,7 +1290,7 @@ public class crifanLib
                 // here download logic is:
                 // once request, return some data
                 // request multiple time, until no more data
-                curReadoutLen = binStream.Read(respBytesBuf, curBufPos, expectReadoutLen);
+                curReadoutLen = binStream.Read(respBytesBuf, curBufPos, (int)expectReadoutLen);
                 if (curReadoutLen > 0)
                 {
                     curBufPos += curReadoutLen;
@@ -1301,7 +1303,7 @@ public class crifanLib
                 }
             } while (curReadoutLen > 0);
         }
-        catch
+        catch(Exception ex)
         {
             realReadoutLen = -1;
         }

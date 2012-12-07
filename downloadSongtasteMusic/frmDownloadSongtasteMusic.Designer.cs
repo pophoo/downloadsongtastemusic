@@ -108,18 +108,18 @@
             this.grpTrigHotkey.Controls.Add(this.ckbShift);
             this.grpTrigHotkey.Controls.Add(this.ckbAlt);
             this.grpTrigHotkey.Controls.Add(this.ckbCtrl);
-            this.grpTrigHotkey.Location = new System.Drawing.Point(37, 18);
+            this.grpTrigHotkey.Location = new System.Drawing.Point(37, 20);
             this.grpTrigHotkey.Name = "grpTrigHotkey";
-            this.grpTrigHotkey.Size = new System.Drawing.Size(221, 82);
+            this.grpTrigHotkey.Size = new System.Drawing.Size(221, 89);
             this.grpTrigHotkey.TabIndex = 0;
             this.grpTrigHotkey.TabStop = false;
             this.grpTrigHotkey.Text = "快捷键";
             // 
             // btnRegHotkey
             // 
-            this.btnRegHotkey.Location = new System.Drawing.Point(34, 42);
+            this.btnRegHotkey.Location = new System.Drawing.Point(34, 46);
             this.btnRegHotkey.Name = "btnRegHotkey";
-            this.btnRegHotkey.Size = new System.Drawing.Size(164, 26);
+            this.btnRegHotkey.Size = new System.Drawing.Size(164, 28);
             this.btnRegHotkey.TabIndex = 3;
             this.btnRegHotkey.Text = "注册快捷键";
             this.btnRegHotkey.UseVisualStyleBackColor = true;
@@ -155,9 +155,9 @@
             "X",
             "Y",
             "Z"});
-            this.cmbKeys.Location = new System.Drawing.Point(158, 17);
+            this.cmbKeys.Location = new System.Drawing.Point(158, 18);
             this.cmbKeys.Name = "cmbKeys";
-            this.cmbKeys.Size = new System.Drawing.Size(54, 20);
+            this.cmbKeys.Size = new System.Drawing.Size(54, 21);
             this.cmbKeys.TabIndex = 2;
             // 
             // ckbShift
@@ -165,9 +165,9 @@
             this.ckbShift.AutoSize = true;
             this.ckbShift.Checked = true;
             this.ckbShift.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbShift.Location = new System.Drawing.Point(105, 18);
+            this.ckbShift.Location = new System.Drawing.Point(105, 20);
             this.ckbShift.Name = "ckbShift";
-            this.ckbShift.Size = new System.Drawing.Size(54, 16);
+            this.ckbShift.Size = new System.Drawing.Size(47, 17);
             this.ckbShift.TabIndex = 0;
             this.ckbShift.Text = "Shift";
             this.ckbShift.UseVisualStyleBackColor = true;
@@ -177,9 +177,9 @@
             this.ckbAlt.AutoSize = true;
             this.ckbAlt.Checked = true;
             this.ckbAlt.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbAlt.Location = new System.Drawing.Point(61, 18);
+            this.ckbAlt.Location = new System.Drawing.Point(61, 20);
             this.ckbAlt.Name = "ckbAlt";
-            this.ckbAlt.Size = new System.Drawing.Size(42, 16);
+            this.ckbAlt.Size = new System.Drawing.Size(38, 17);
             this.ckbAlt.TabIndex = 0;
             this.ckbAlt.Text = "Alt";
             this.ckbAlt.UseVisualStyleBackColor = true;
@@ -189,34 +189,34 @@
             this.ckbCtrl.AutoSize = true;
             this.ckbCtrl.Checked = true;
             this.ckbCtrl.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbCtrl.Location = new System.Drawing.Point(14, 18);
+            this.ckbCtrl.Location = new System.Drawing.Point(14, 20);
             this.ckbCtrl.Name = "ckbCtrl";
-            this.ckbCtrl.Size = new System.Drawing.Size(48, 16);
+            this.ckbCtrl.Size = new System.Drawing.Size(41, 17);
             this.ckbCtrl.TabIndex = 0;
             this.ckbCtrl.Text = "Ctrl";
             this.ckbCtrl.UseVisualStyleBackColor = true;
             // 
             // txbSaveTo
             // 
-            this.txbSaveTo.Location = new System.Drawing.Point(67, 26);
+            this.txbSaveTo.Location = new System.Drawing.Point(67, 28);
             this.txbSaveTo.Name = "txbSaveTo";
-            this.txbSaveTo.Size = new System.Drawing.Size(255, 21);
+            this.txbSaveTo.Size = new System.Drawing.Size(255, 20);
             this.txbSaveTo.TabIndex = 2;
             // 
             // lblSaveTo
             // 
             this.lblSaveTo.AutoSize = true;
-            this.lblSaveTo.Location = new System.Drawing.Point(7, 25);
+            this.lblSaveTo.Location = new System.Drawing.Point(7, 27);
             this.lblSaveTo.Name = "lblSaveTo";
-            this.lblSaveTo.Size = new System.Drawing.Size(53, 12);
+            this.lblSaveTo.Size = new System.Drawing.Size(55, 13);
             this.lblSaveTo.TabIndex = 3;
             this.lblSaveTo.Text = "保存至：";
             // 
             // btnChooseFoler
             // 
-            this.btnChooseFoler.Location = new System.Drawing.Point(328, 25);
+            this.btnChooseFoler.Location = new System.Drawing.Point(328, 27);
             this.btnChooseFoler.Name = "btnChooseFoler";
-            this.btnChooseFoler.Size = new System.Drawing.Size(55, 19);
+            this.btnChooseFoler.Size = new System.Drawing.Size(55, 21);
             this.btnChooseFoler.TabIndex = 4;
             this.btnChooseFoler.Text = "浏览";
             this.btnChooseFoler.UseVisualStyleBackColor = true;
@@ -225,9 +225,9 @@
             // grbDownloadType
             // 
             this.grbDownloadType.Controls.Add(this.tctDownloadType);
-            this.grbDownloadType.Location = new System.Drawing.Point(12, 6);
+            this.grbDownloadType.Location = new System.Drawing.Point(12, 7);
             this.grbDownloadType.Name = "grbDownloadType";
-            this.grbDownloadType.Size = new System.Drawing.Size(448, 136);
+            this.grbDownloadType.Size = new System.Drawing.Size(448, 147);
             this.grbDownloadType.TabIndex = 5;
             this.grbDownloadType.TabStop = false;
             this.grbDownloadType.Text = "下载类型";
@@ -237,10 +237,10 @@
             this.tctDownloadType.Controls.Add(this.tpgPlaying);
             this.tctDownloadType.Controls.Add(this.tpgSingle);
             this.tctDownloadType.Controls.Add(this.tpgAlbum);
-            this.tctDownloadType.Location = new System.Drawing.Point(7, 18);
+            this.tctDownloadType.Location = new System.Drawing.Point(7, 20);
             this.tctDownloadType.Name = "tctDownloadType";
             this.tctDownloadType.SelectedIndex = 0;
-            this.tctDownloadType.Size = new System.Drawing.Size(435, 112);
+            this.tctDownloadType.Size = new System.Drawing.Size(435, 121);
             this.tctDownloadType.TabIndex = 0;
             // 
             // tpgPlaying
@@ -248,7 +248,7 @@
             this.tpgPlaying.Location = new System.Drawing.Point(4, 22);
             this.tpgPlaying.Name = "tpgPlaying";
             this.tpgPlaying.Padding = new System.Windows.Forms.Padding(3);
-            this.tpgPlaying.Size = new System.Drawing.Size(427, 86);
+            this.tpgPlaying.Size = new System.Drawing.Size(427, 95);
             this.tpgPlaying.TabIndex = 0;
             this.tpgPlaying.Text = "正在播放";
             this.tpgPlaying.UseVisualStyleBackColor = true;
@@ -260,25 +260,25 @@
             this.tpgSingle.Location = new System.Drawing.Point(4, 22);
             this.tpgSingle.Name = "tpgSingle";
             this.tpgSingle.Padding = new System.Windows.Forms.Padding(3);
-            this.tpgSingle.Size = new System.Drawing.Size(427, 86);
+            this.tpgSingle.Size = new System.Drawing.Size(427, 95);
             this.tpgSingle.TabIndex = 1;
             this.tpgSingle.Text = "单首ST歌曲";
             this.tpgSingle.UseVisualStyleBackColor = true;
             // 
             // txbStUrl
             // 
-            this.txbStUrl.Location = new System.Drawing.Point(131, 30);
+            this.txbStUrl.Location = new System.Drawing.Point(131, 33);
             this.txbStUrl.Name = "txbStUrl";
-            this.txbStUrl.Size = new System.Drawing.Size(272, 21);
+            this.txbStUrl.Size = new System.Drawing.Size(272, 20);
             this.txbStUrl.TabIndex = 1;
-            this.txbStUrl.Text = "http://www.songtaste.com/song/20224/";
+            this.txbStUrl.Text = "http://www.songtaste.com/song/3208674/";
             // 
             // lblStUrl
             // 
             this.lblStUrl.AutoSize = true;
-            this.lblStUrl.Location = new System.Drawing.Point(53, 33);
+            this.lblStUrl.Location = new System.Drawing.Point(53, 36);
             this.lblStUrl.Name = "lblStUrl";
-            this.lblStUrl.Size = new System.Drawing.Size(71, 12);
+            this.lblStUrl.Size = new System.Drawing.Size(72, 13);
             this.lblStUrl.TabIndex = 0;
             this.lblStUrl.Text = "ST歌曲地址:";
             // 
@@ -289,33 +289,33 @@
             this.tpgAlbum.Location = new System.Drawing.Point(4, 22);
             this.tpgAlbum.Name = "tpgAlbum";
             this.tpgAlbum.Padding = new System.Windows.Forms.Padding(3);
-            this.tpgAlbum.Size = new System.Drawing.Size(427, 86);
+            this.tpgAlbum.Size = new System.Drawing.Size(427, 95);
             this.tpgAlbum.TabIndex = 2;
             this.tpgAlbum.Text = "整张ST专辑";
             this.tpgAlbum.UseVisualStyleBackColor = true;
             // 
             // txbAlbumAddr
             // 
-            this.txbAlbumAddr.Location = new System.Drawing.Point(131, 30);
+            this.txbAlbumAddr.Location = new System.Drawing.Point(131, 33);
             this.txbAlbumAddr.Name = "txbAlbumAddr";
-            this.txbAlbumAddr.Size = new System.Drawing.Size(272, 21);
+            this.txbAlbumAddr.Size = new System.Drawing.Size(272, 20);
             this.txbAlbumAddr.TabIndex = 3;
             this.txbAlbumAddr.Text = "http://www.songtaste.com/album/597900";
             // 
             // lblAlbumAddr
             // 
             this.lblAlbumAddr.AutoSize = true;
-            this.lblAlbumAddr.Location = new System.Drawing.Point(18, 33);
+            this.lblAlbumAddr.Location = new System.Drawing.Point(18, 36);
             this.lblAlbumAddr.Name = "lblAlbumAddr";
-            this.lblAlbumAddr.Size = new System.Drawing.Size(113, 12);
+            this.lblAlbumAddr.Size = new System.Drawing.Size(107, 13);
             this.lblAlbumAddr.TabIndex = 2;
             this.lblAlbumAddr.Text = "ST专辑(Album)地址:";
             // 
             // btnDownload
             // 
-            this.btnDownload.Location = new System.Drawing.Point(19, 18);
+            this.btnDownload.Location = new System.Drawing.Point(19, 20);
             this.btnDownload.Name = "btnDownload";
-            this.btnDownload.Size = new System.Drawing.Size(86, 49);
+            this.btnDownload.Size = new System.Drawing.Size(86, 53);
             this.btnDownload.TabIndex = 6;
             this.btnDownload.Text = "下载";
             this.btnDownload.UseVisualStyleBackColor = true;
@@ -325,9 +325,9 @@
             // 
             this.grbTrigger.Controls.Add(this.grbTrigBtn);
             this.grbTrigger.Controls.Add(this.grpTrigHotkey);
-            this.grbTrigger.Location = new System.Drawing.Point(12, 213);
+            this.grbTrigger.Location = new System.Drawing.Point(12, 231);
             this.grbTrigger.Name = "grbTrigger";
-            this.grbTrigger.Size = new System.Drawing.Size(448, 112);
+            this.grbTrigger.Size = new System.Drawing.Size(448, 121);
             this.grbTrigger.TabIndex = 7;
             this.grbTrigger.TabStop = false;
             this.grbTrigger.Text = "下载触发类型";
@@ -335,9 +335,9 @@
             // grbTrigBtn
             // 
             this.grbTrigBtn.Controls.Add(this.btnDownload);
-            this.grbTrigBtn.Location = new System.Drawing.Point(292, 18);
+            this.grbTrigBtn.Location = new System.Drawing.Point(292, 20);
             this.grbTrigBtn.Name = "grbTrigBtn";
-            this.grbTrigBtn.Size = new System.Drawing.Size(122, 82);
+            this.grbTrigBtn.Size = new System.Drawing.Size(122, 89);
             this.grbTrigBtn.TabIndex = 7;
             this.grbTrigBtn.TabStop = false;
             this.grbTrigBtn.Text = "按钮";
@@ -348,18 +348,18 @@
             this.grbSave.Controls.Add(this.lblSaveTo);
             this.grbSave.Controls.Add(this.txbSaveTo);
             this.grbSave.Controls.Add(this.btnChooseFoler);
-            this.grbSave.Location = new System.Drawing.Point(12, 148);
+            this.grbSave.Location = new System.Drawing.Point(12, 160);
             this.grbSave.Name = "grbSave";
-            this.grbSave.Size = new System.Drawing.Size(448, 59);
+            this.grbSave.Size = new System.Drawing.Size(448, 64);
             this.grbSave.TabIndex = 8;
             this.grbSave.TabStop = false;
             this.grbSave.Text = "保存";
             // 
             // btnOpenFolder
             // 
-            this.btnOpenFolder.Location = new System.Drawing.Point(387, 25);
+            this.btnOpenFolder.Location = new System.Drawing.Point(387, 27);
             this.btnOpenFolder.Name = "btnOpenFolder";
-            this.btnOpenFolder.Size = new System.Drawing.Size(55, 19);
+            this.btnOpenFolder.Size = new System.Drawing.Size(55, 21);
             this.btnOpenFolder.TabIndex = 5;
             this.btnOpenFolder.Text = "打开";
             this.btnOpenFolder.UseVisualStyleBackColor = true;
@@ -368,8 +368,8 @@
             // lklUsage
             // 
             this.lklUsage.AutoSize = true;
-            this.lklUsage.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lklUsage.Location = new System.Drawing.Point(121, 362);
+            this.lklUsage.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lklUsage.Location = new System.Drawing.Point(121, 392);
             this.lklUsage.Name = "lklUsage";
             this.lklUsage.Size = new System.Drawing.Size(236, 19);
             this.lklUsage.TabIndex = 9;
@@ -380,18 +380,18 @@
             // pgbDownload
             // 
             this.pgbDownload.BackColor = System.Drawing.SystemColors.Control;
-            this.pgbDownload.Location = new System.Drawing.Point(12, 331);
+            this.pgbDownload.Location = new System.Drawing.Point(12, 359);
             this.pgbDownload.Name = "pgbDownload";
-            this.pgbDownload.Size = new System.Drawing.Size(448, 23);
+            this.pgbDownload.Size = new System.Drawing.Size(448, 25);
             this.pgbDownload.Step = 1;
             this.pgbDownload.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.pgbDownload.TabIndex = 10;
             // 
             // frmDownloadSongtasteMusic
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 390);
+            this.ClientSize = new System.Drawing.Size(477, 423);
             this.Controls.Add(this.grbDownloadType);
             this.Controls.Add(this.pgbDownload);
             this.Controls.Add(this.grbSave);
